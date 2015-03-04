@@ -93,7 +93,7 @@ background-color: transparent;
 
 #page-welcome header{
     color:#fff;
-    padding-top:20%;
+    padding-top:15%;
 
 }
 
@@ -123,10 +123,8 @@ background-color: transparent;
     background:#fff;
 }
 
-#page-profile .profile{
+.profile{
     border: 5px solid #333;
-    width:225px;
-    height:225px;
     margin: 0 20px 20px 0;
    
 }
@@ -152,7 +150,6 @@ background-color: transparent;
 #page-portfolio{
     padding: 75px 0;
     background:#fff;
-
 }
 
 #page-contact{
@@ -161,6 +158,15 @@ background-color: transparent;
 
 #page-contact .contact-info p{
     font-size:1.2em;
+}
+
+.grey {
+    padding: 75px 0;
+    background:#f7f7f7;
+}
+ .white {
+    padding: 75px 0;
+    background:#fff;
 }
 
 
@@ -570,6 +576,22 @@ label.valid{
 }
 
 
+
+.founder img {
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.founder h3 {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.founder header p {
+  text-align: center;
+  font-style: italic;
+}
 
 /* ==========================================================================
    Responsive Settings
