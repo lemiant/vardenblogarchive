@@ -236,6 +236,14 @@ background-color: transparent;
     padding-top: 30%;
 }
 
+#grid .mix label {
+  font-weight: normal;
+  font-style: italic;
+  color: black;
+  padding-top: 7px;
+  font-size: 16px;
+}
+
  
  
 .isotope-item {

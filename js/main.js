@@ -20,8 +20,8 @@ $(document).ready(function(){
 
 /* Magnific Popup */
 $('.grid-wrapper').magnificPopup({
-		  delegate: 'a', 
-		  type: 'image',
+		  delegate: 'a',
+          type: "iframe",
 		  gallery:{
 			enabled:true
 		  }
@@ -46,23 +46,13 @@ $(".navbar").sticky({topSpacing: 0});
 
 /* VEGAS Home Slider */
 	
-		$.vegas('slideshow', {
-			  backgrounds:[
-				
-				{ src:'img/slider/01.jpg', fade:1000 },
-				{ src:'img/slider/02.jpg', fade:1000 },
-				{ src:'img/slider/03.jpg', fade:1000 },
-				{ src:'img/slider/04.jpg', fade:1000 }
-			  ]
-			})('overlay', {
-			  src:'img/overlays/16.png'
-			});
-			$( "#vegas-next" ).click(function() {
-			  $.vegas('next');
-			});
-			$( "#vegas-prev" ).click(function() {
-			  $.vegas('previous');
-		});
+		$.vegas({
+            src:'img/slider/01.jpg',
+        });
+        $.vegas('overlay', {
+              src:'img/overlays/07.png'
+        });
+        
 
 
 /*Contact form */
