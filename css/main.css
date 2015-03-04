@@ -184,11 +184,17 @@ background-color: transparent;
 .center-pills { 
     display: inline-block; 
 }
+
+#grid {
+  text-align: center;
+  padding: 0;
+}
+
 #grid .mix{
     width: 200px;
     height: 150px;
     vertical-align: top;
-    margin:20px 20px 20px 0 ;
+    margin:20px;
     color: #fff;
     text-align: center;
     display: inline-block; 
@@ -213,6 +219,15 @@ background-color: transparent;
 
 #grid .mix .overlay:hover{
      opacity:.8;
+}
+
+#grid .mix .overlay::before {
+  content: "\f01d";
+  font-size: 90px;
+  color: white;
+  font-family: FontAwesome;
+  top: 10px;
+  position: relative;
 }
 
 #grid .mix .overlay i{

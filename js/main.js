@@ -17,36 +17,6 @@ $(document).ready(function(){
         $(this).parent('li').addClass('active')
     })
 
-/* portfolio mixitup */
-
-	$(window).load(function(){
-    var $container = $('.grid-wrapper');
-    $container.isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-        }
-    });
- 
-    $('.grid-controls li a').click(function(){
-        $('.grid-controls .current').removeClass('current');
-        $(this).addClass('current');
- 
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-         });
-         return false;
-    });
-});
-
 
 /* Magnific Popup */
 $('.grid-wrapper').magnificPopup({
@@ -72,22 +42,6 @@ $(".navbar").sticky({topSpacing: 0});
         filter: "",
         easing: "swing"	
      });
-
-/* Charts*/
-    
-$('.chart').waypoint(function() {
-    $(this).easyPieChart({
-    	   barColor: '#3498db',
-    	   size: '150',
-			easing: 'easeOutBounce',
-			onStep: function(from, to, percent) {
-				$(this.el).find('.percent').text(Math.round(percent));
-			}
-	 });
-}, {
-  triggerOnce: true,
-  offset: 'bottom-in-view'
-});
 
 
 /* VEGAS Home Slider */
