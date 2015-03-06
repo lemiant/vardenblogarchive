@@ -48,6 +48,7 @@ $(".navbar").sticky({topSpacing: 0});
 	
 		$.vegas({
             src:'img/slider/01.jpg',
+            fade: 0
         });
         $.vegas('overlay', {
               src:'img/overlays/07.png'
