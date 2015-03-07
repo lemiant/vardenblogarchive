@@ -634,6 +634,17 @@ label.valid{
 }
 
 @media  (max-width: 479px) {
+
+    .white, .grey {
+      padding: 50px 0 70px;
+    }
+
+    #page-welcome .centered {
+      position: absolute; 
+      width: 100%; 
+      text-align: center; 
+      top: 25%;
+    }
     
     #page-welcome header h1 {
         font-size: 2em;
