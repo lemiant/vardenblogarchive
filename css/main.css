@@ -97,7 +97,7 @@ background-color: transparent;
 
 #page-welcome header {
     color:#fff;
-    padding-top:8%;
+    padding-top:10%;
 }
 
 #page-welcome header h1{
@@ -107,7 +107,6 @@ background-color: transparent;
     font-weight: 700;
     letter-spacing: 0.1em;
     line-height: 1em;
-   text-transform: uppercase;
 }
 
 #page-welcome header p{
@@ -117,7 +116,6 @@ background-color: transparent;
     padding: 0 8px;
      letter-spacing: 0.1em;
     line-height: 3em;
-    text-transform: uppercase;
 }
 
 
@@ -315,7 +313,7 @@ background-color: transparent;
 
 .vegas-overlay {
     background: transparent url(../img/overlays/16.png);
-    opacity: 1;
+    opacity: 0.65;
     z-index: -1;
 }
 
@@ -508,84 +506,6 @@ label.valid{
 }
 
 
-/* ==========================================================================
-   Social icons
-   ========================================================================== */
-
-.social-icons .btn{
-    margin-right: 15px;
-}
-.social-icons{
-    padding-top: 10px;
-    margin-bottom: 35px;
-}
-.social-icons .btn.btn-clear{
-    border: 1px solid #fff;
-}
-
-.btn-round{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    padding: 0;
-}
-.btn-round i{
-    font-size: 20px;
-    top: 15px;
-    position: relative;
-}
-.btn.btn-clear{
-    border: 1px solid #fff;
-    color: #fff;
-    background: none;
-    background-color: none;
-    font-weight: bold;
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;  
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-}
-.btn.btn-clear:hover, 
-.btn.btn-clear.selected{
-    background: #fff;
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
-}
-
-.btn-twitter:hover{
-    color:#2BA9E0;
-}
-
-.btn-facebook:hover{
-    color:#204385;
-}
-
-.btn-dribbble:hover{
-    color:#D92C85;
-}
-
-.btn-instagram:hover{
-    color:#BAB1A8;
-}
-
-.btn-linkedin:hover{
-    color:#015786;
-}
-
-.btn-pinterest:hover{
-    color:#CA2128;
-}
-
-.btn-google:hover{
-    color:#D3492C;
-}
-
 
 /* ==========================================================================
    Helper classes
@@ -639,10 +559,7 @@ label.valid{
     }
 
     #page-welcome .centered {
-      position: absolute; 
-      width: 100%; 
-      text-align: center; 
-      top: 25%;
+        margin-top: 7%;
     }
     
     #page-welcome header h1 {
@@ -673,11 +590,13 @@ label.valid{
           #page-profile .profile{
     margin:0 auto 20px auto;
   }
-  
-   
-
 }
 
+
+@font-face {
+    font-family: centuryGothicLight;
+    src: url(/fonts/Muli-Light.ttf);
+}
 
 
 
