@@ -121,7 +121,6 @@ background-color: transparent;
 
 #page-profile{
     padding: 75px 0;
-    background:#fff;
 }
 
 .profile{
@@ -150,7 +149,6 @@ background-color: transparent;
 
 #page-portfolio{
     padding: 75px 0;
-    background:#fff;
 }
 
 #page-contact{
@@ -161,13 +159,18 @@ background-color: transparent;
     font-size:1.2em;
 }
 
-.grey {
+section {
     padding: 75px 0;
+}
+
+section#page-welcome {
+    background: none; 
+}
+section:nth-of-type(odd) {
     background:#f7f7f7;
 }
- .white {
-    padding: 75px 0;
-    background:#fff;
+section:nth-of-type(even) {
+    background: #fff;
 }
 
 
