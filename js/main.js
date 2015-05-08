@@ -51,7 +51,7 @@ $(".navbar").sticky({topSpacing: 0});
             fade: 0
         });
         $.vegas('overlay', {
-              src:'img/overlays/07.png'
+              src:'img/overlays/13.png'
         });
         
 
