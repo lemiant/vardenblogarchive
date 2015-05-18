@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Varden Labs Blog | {{ page.title }}</title>
+        <title>Varden Labs Blog {% if page.title %} | {{ page.title }}{% endif %}</title>
         <link href='/fonts/OpenSans/OpenSans.css' rel='stylesheet' type='text/css'>
         <link href='/fonts/Oxygen/Oxygen.css' rel='stylesheet' type='text/css'>
         <style>
@@ -28,21 +28,24 @@
                 font-size: 14px;
                 font-weight: bold;
             }
-            #VL {
+            #VL img {
                 height: 45px;
-                margin-top: -13px;
-                float: left;
-                margin-left: -3px;
+            }
+            a#VL {
+                position: absolute;
+                margin: 0;
+                top: 5px;
+                left: 15px;
             }
             .pad {
                 height: 85px;
             }
-            #home-button, #home-button:visited, #home-button:hover, #home-button:active {
-                margin-right: 30px;
+            .header a, .header a:visited, .header a:hover, .header a:active {
+                margin: 0 15px;
                 text-decoration: none;
                 color: #777;
             }
-            span.active {
+            .header a.active {
                 color: rgb(52, 152, 219);
             }
             .logo img {
@@ -107,8 +110,9 @@
     </head>
     <body>
         <div class="header">
-            <a href="/"><img src="/img/VL.svg" id="VL" /></a>
-            <a href="/" id="home-button">HOME</a><span class="active">BLOG</span>
+            <a href="/" id="VL"><img src="/img/VL.svg" /></a>
+            <a href="/" id="home-button">HOME</a>
+            <a href="/blog/" class="active">BLOG</a>
         </div>
         <div class="wrapper">
             <div class="pad"></div>
