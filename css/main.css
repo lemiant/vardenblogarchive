@@ -109,9 +109,13 @@ background-color: transparent;
     line-height: 1em;
 }
 
-#page-welcome header p{
-    font-size: 2em;
-    display: inline-block;
+
+
+#page-welcome header .logo {
+    width: 550px;
+}
+#page-welcome header h3{
+    font-size: 2.3em;
     margin-bottom: 5px;
     padding: 0 8px;
      letter-spacing: 0.1em;
@@ -555,6 +559,16 @@ label.valid{
 
 }
 
+@media  (max-width: 767px) {
+    #page-welcome header .logo {
+        width: 400px;
+    }
+    
+    #page-welcome header h3 {
+        font-size: 1.6em;
+    }
+}
+
 @media  (max-width: 479px) {
 
     .white, .grey {
@@ -569,7 +583,11 @@ label.valid{
         font-size: 2em;
     }
 
-    #page-welcome header p {
+    #page-welcome header .logo {
+        width: 250px;
+    }
+    
+    #page-welcome header h3 {
         font-size: 1em;
        line-height: 3em;
     }

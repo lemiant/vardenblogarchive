@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Varden Labs Blog | {{ page.title }}</title>
+        <link href='/fonts/OpenSans/OpenSans.css' rel='stylesheet' type='text/css'>
+        <link href='/fonts/Oxygen/Oxygen.css' rel='stylesheet' type='text/css'>
+        <style>
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: 'Source Sans Pro', Helvetica, sans-serif;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            
+            h1, h2, h3, h4, h5 {
+                font-family: 'Oxygen', sans-serif;
+            }
+            .header {
+                background-color: rgba(247, 247, 247, 0.85);
+                width: 100%;
+                position: fixed;
+                height: 55px;
+                text-align: center;
+                padding: 18px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            #VL {
+                height: 45px;
+                margin-top: -13px;
+                float: left;
+                margin-left: -3px;
+            }
+            .pad {
+                height: 85px;
+            }
+            #home-button, #home-button:visited, #home-button:hover, #home-button:active {
+                margin-right: 30px;
+                text-decoration: none;
+                color: #777;
+            }
+            span.active {
+                color: rgb(52, 152, 219);
+            }
+            .logo img {
+                height: 50px;
+            }
+            .wrapper {
+                width: 700px;
+                margin: auto;
+                min-height: 100%;
+                padding-bottom: 210px;
+            }
+            #footer {
+                height: 165px;
+                margin-top: -165px;
+                width: 100%;
+                background-color: #3498db;
+                color: rgb(57, 57, 57);
+                text-align: center;
+                padding: 16px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            #footer ul {
+                display: block;
+                float: left;
+                padding: 0 10px;
+                margin: 0 0 0 35px;
+                width: 90px;
+            }
+            #footer .shell {
+                width: 700px;
+                margin: auto;
+            }
+            #footer li {
+                display: block;   
+                margin-bottom: 9px;
+                text-transform: uppercase;
+            }
+            #footer a, #footer a:active, #footer a:visited{
+                color: inherit;
+                text-decoration: none;
+            }
+            #thank-you {
+                display: inline-block;
+                text-align: center;
+                width: 575px;
+            }
+            #thank-you img, #thank-you .box{
+                height: 100px;
+                margin: 10px 30px;
+                vertical-align: middle;
+            }
+            #thank-you .box{
+                width: 100px;
+                display: inline-block;
+                font-size: 16px;
+                padding: 24px 0;
+                text-align: center;
+            }
+        </style>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="header">
+            <a href="/"><img src="/img/VL.svg" id="VL" /></a>
+            <a href="/" id="home-button">HOME</a><span class="active">BLOG</span>
+        </div>
+        <div class="wrapper">
+            <div class="pad"></div>
+            <div class="logo"><img src="/img/varden_labs_sm.png" /><img src="/img/blog.png" /></div>
+            {{ content }}
+        </div>
+        <div id="footer"><div class="shell">
+            <ul>
+                <li><a href="/#page-welcome">Home</a></li>
+                <li><a href="/#page-profile">About</a></li>
+                <li><a href="/#page-founders">Founders</a></li>
+                <li><a href="/#page-demos">Demos</a></li>
+                <li><a href="/#page-sponsors">Sponsors</a></li>
+                <li><a href="/#page-contact">Contact</a></li>
+            </ul>
+            <div id="thank-you">
+                <img src="/img/novatel.gif" />
+                <img src="/img/waterloo.png" />
+                
+                <div class="box">Thank You <br>to our sponsors.</div>
+            </div>
+            <div style="clear: both;">
+        </div></div>
+        </div>
+    </body>
+</html>

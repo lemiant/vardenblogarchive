@@ -28,8 +28,8 @@
          <!-- Feature detection -->
         <script src="js/modernizr-2.6.2.min.js"></script>
         <!-- Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+        <link href='/fonts/OpenSans/OpenSans.css' rel='stylesheet' type='text/css'>
+        <link href='/fonts/Oxygen/Oxygen.css' rel='stylesheet' type='text/css'>
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -44,6 +44,7 @@
     <!-- -->
   <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
+        <img src="/img/VL.svg" style="position: absolute; top: 5px; left: 15px; height: 45px;" />
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -56,11 +57,12 @@
           <ul class="nav navbar-nav" id="main-menu">
             <li><a href="#page-welcome">Home</a></li>
             <li><a href="#page-profile">About</a></li>
-            <!-- <li><a href="#page-market">Market</a></li> -->
             <li><a href="#page-founders">Founders</a></li>
             <li><a href="#page-demos">Demos</a></li>
             <li><a href="#page-sponsors">Sponsors</a></li>
             <li><a href="#page-contact">Contact</a></li>
+            <li style="font-size: 25px; line-height: 44px; font-weight: 100;">|</li>
+            <li><a href="/blog/" class="link">Blog</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -70,11 +72,8 @@
         <div class="container" style="height: 100%;">
             <div class="row" style="height: 100%;">
                 <header class="centered" style="height: 100%;">
-                    <div id="img_container" style="height: 45%; position: relative; width: 270px; margin: auto; max-width: 50%;">
-                        <img src="/img/VL.svg" style="max-height: 350px; width: 100%; position: absolute; bottom: 0px; left: 0;" />
-                    </div>
-                    <h1 style="font-family: centuryGothicLight">Varden Labs</h1>
-                    <p style="font-family: centuryGothicLight">Making Vehicles Drive Themselves</p>
+                    <img src="/img/varden_labs_gray.png" class="logo" /><br>
+                    <h3 style="font-family: centuryGothicLight;">Making Vehicles Drive Themselves</h3>
                 </header>
             </div>
         </div>
@@ -100,28 +99,7 @@
               </div>
             </div>
       </div> 
-    </section><!-- profile ends -->
-    <!-- experience begins -->
-        <!--
-     <section id="page-market" class="grey">
-      <div class="container">
-            <header class="section-header">
-                <h2 class="section-title">The Market</h2>
-                <div class="spacer" style="margin-bottom: 40px;"></div>
-            </header>
-            <div class="row">
-              <div class="col-md-5">
-                 <div class="profile" style="width: 310px;margin: auto;"><img src="img/haul_truck.jpg" alt="profile"/></div> 
-              </div>
-               <div class="col-md-7" style="height: 210px; display: table;">
-                <div style="display: table-cell; vertical-align: middle;">
-                  <p>Major auto manufacturers predict that self-driving consumer cars will hit the streets within the decade. We will get to market even sooner by applying autonomous technology to a more lucrative environment, haul trucks. Haul trucks move ore from mines to processing facilities and they present an especially exciting opportunity because they operate in a relatively controlled environment and provide massive returns.</p>
-                  <p>Experts estimate that by not having to stop for shift changes or breaks an autonomous haul truck can perform 20% more work than one driven manually. In other words, a single autonomous system can add a lot of value to a $5 million truck. Automatic haul trucks also increase safety because they never get tired or distracted.</p>
-                </div>
-              </div>
-            </div>
-      </div> 
-    </section><!-- experience ends -->
+    </section>
      <section id="page-founders" class="white">
        <div class="container">
                 <header class="section-header">

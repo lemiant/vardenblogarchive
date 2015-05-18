@@ -39,7 +39,7 @@ $(".navbar").sticky({topSpacing: 0});
         changeHash: false,
         scrollThreshold: 0.5,
         scrollSpeed: 750,
-        filter: "",
+        filter: ":not(.link)",
         easing: "swing"	
      });
 
@@ -47,11 +47,11 @@ $(".navbar").sticky({topSpacing: 0});
 /* VEGAS Home Slider */
 	
 		$.vegas({
-            src:'img/slider/01.jpg',
+            src:'/img/slider/01.jpg',
             fade: 0
         });
         $.vegas('overlay', {
-              src:'img/overlays/dark.png'
+              src:'/img/overlays/07.png'
         });
         
 
