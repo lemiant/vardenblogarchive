@@ -156,9 +156,50 @@
     </section><!-- portfolio ends -->
 
     <style>
-        #page-sponsors #grid li {
-            width: 200px;
+        #sponsor-grid{
+            padding: 0;
+            width: 100%;
+            text-align: center;
+        }
+        #sponsor-grid li {
+            height: 200px;
             margin: 0 40px;
+            display: inline-block;
+            position: relative;
+        }
+        #sponsor-grid li img {
+          height: 100%;
+        }
+        #sponsor-grid li a {
+          height: 100%;
+        }
+        #sponsor-grid .partial-overlay {
+          height: 100%;
+          width: 230px;
+          position: absolute;
+          top: 0;
+          display: none;
+        }
+        #sponsor-grid .partial-overlay div.background-color {
+          background-color: rgba(52, 152, 219, 0.9);
+          color: white;
+          font-size: 13px;
+          text-align: left;
+          display: inline-block;
+          height: 100%;
+          width: 180px;
+          padding: 12px;
+        }
+        #sponsor-grid .partial-overlay.left {
+          left: -210px;
+          text-align: left;
+        }
+        #sponsor-grid .partial-overlay.right {
+          right: -210px;
+          text-align: right;
+        }
+        #sponsor-grid  li:hover .partial-overlay, #sponsor-grid .partial-overlay:hover {
+          display: block;
         }
     </style>
      <section id="page-sponsors" class="grey">
@@ -166,19 +207,30 @@
             <div class="row">
                 <header class="section-header">
                     <h2 class="section-title"><span>Sponsors</span></h2>
-                      <div class="spacer"  style="margin-bottom: 18px;"></div>
+                      <div class="spacer"  style="margin-bottom: 25px;"></div>
                 </header>
             
-                <div>
-                  <ul id="grid">
-                      <li class="mix web" >
-                        <a href="http://www.novatel.com/"> <img src="img/novatel.gif" alt="NovAtel" ></a>
-                      </li>
-                      <li class="mix web">
-                        <img src="img/waterloo.png" alt="" >
-                      </li>
-                  </ul>
-                </div>
+                <ul id="sponsor-grid">
+                    <li>
+                      <a href="http://www.novatel.com/">
+                        <img src="img/novatel.gif" alt="NovAtel" >
+                        <div class="partial-overlay left">
+                        <div class="background-color">
+                          NovAtel is a world leader in GPS equipment. We are using their ProPak 6 GPS receiver on our vehicle because of its amazing accuracy and rugged reliability. Click here to learn more about NovAtel.
+                        </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <img src="img/waterloo.png">
+                        <div class="partial-overlay right">
+                        <div class="background-color">
+                          The University of Waterloo is known for being a center of innovation. We would never have been able to embark on this journey without the financial and academic support Waterloo gives its student ventures.
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </section><!-- portfolio ends -->
