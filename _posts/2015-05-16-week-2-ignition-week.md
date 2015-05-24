@@ -1,0 +1,25 @@
+---
+layout: post
+title: Ignition Week
+excerpt: "We just finished Ignition Week. It's been a whirlwind: Great programs, Great people, and 5000 dollars. Now off to Calgary!"
+headerImage: /img/business_cards.jpg
+headerColor: "#0A0A0A"
+---
+
+We just finished Ignition Week, a program for all University of Waterloo students doing a self-employed term (known at the University as e-coop). It's been a whirlwind experience. In classic startup style we slept on a friend's floor for the week, but aside from the floor-related cramps it's been great. We got to meet the 20-odd students who also took the plunge to venture out on their own this term. It was a priviledge to meet the other e-coops, they are a motivated and personable group and we look forward to getting to know them throughout this summer. Here are some of the highlights of the week:
+
+- We won 5000 dollars! During the first day of ignition week all of the startups pitch their venture idea in front of a panel of judges, and the most promising ventures win $5000 to put towards their startup (this term the judges were Ignacio Mongrell from Apartmint and Wayne Chang e-coop director). This was hardly our first time pitching - we've previously pitched at Velocity Fund Finals and the UW ACE pitch competition - and that previous experience definitely helped us put our best foot forward. Still, it was a heart pounding experience while they announced the winners. A big thank you to the Judges for believing in us.
+
+- We built a brand. Well technically this happened last week, but it's still awesome. Mike made us an awesome new Varden Labs logo and we launched our website and blog here at http://vardenlabs.com. We also started a facebook page which you should definitely check out (facebook.com/vardenlabs), where will be infromally posting pictures and videos as the term progresses. Best of all we got swaggy new business cards, which we're really enjoying handing out.
+
+- We went to a great presentation at BDO Canada and learned a lot about how taxes affect our early stage venture. It turns out that the Canadian government is very supportive of companies undertaking research and development efforts, which is really exciting to us since building an autonomous vehicle is basically the quintissential R&D project. Hopefully we'll be able to tap into that support.
+
+- We visitted the hubs of the Waterloo startup scene. Anybody not from around Waterloo might be surprised to learn that this small Ontario town of Kitchener/Waterloo with a population under 500,000 is actually one of the biggest startup hotbeds north of San Francisco. We got the chance to tour all of the major incubators and meeting places of the Waterloo startup scene: Communitech, Velocity Garage, Velocity Foundry and the the Accelerator Center. Waterloo has a super friendly startup community and its great to be a part of it.
+
+- On top of all that we participated in a bunch of presentations about business model generation and customer acquisition from the e-coop team. A lot of this we'd seen before as a part of our BET 300 class, but it was still a great refresher. It's always important to keep the value of your product top of mind, and we think we've got a pretty valuable product.
+
+Now we're leaving Waterloo and heading off to Calgary to start building our self-driving golf cart, it's gonna be amazing!
+
+Bye Everyone!
+
+![](/img/off_to_calgary.jpg)

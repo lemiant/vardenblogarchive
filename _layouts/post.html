@@ -1,7 +1,44 @@
 ---
 layout: blog_page
 ---
+{% if page.headerImage %}
+<style>
+	.blog-header {
+		position: relative;
+		width: 100%; 
+		height: 210px;
+		text-align: center;
+		margin-top: 18px;
+	}
+	.blog-header::before {
+		content: "";
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.blog-header img {
+		max-width: 100%;
+		max-height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.blog-header h1 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.85);
+		margin: 0;
+		padding: 8px 25px;
+	}
+</style>
+<div class="blog-header" style="background-color: {{ page.headerColor }};">
+	<img src="{{ page.headerImage }}">
+	<h1>{{ page.title }}</h1>
+</div>
+{% else %}
 <h1>{{ page.title }}</h1>
+{% endif %}
+
 {{content}} 
 <br><br>
 <a href="/blog/" style="color: #444;">&lt;&lt; return to blog list</a>
