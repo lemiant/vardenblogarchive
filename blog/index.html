@@ -6,11 +6,12 @@ layout: blog_page
         text-decoration: none;
         color: black;
         width: 340px;
-        margin-top: 15px;
+        margin-top: 22px;
         margin-right: 7px;
         border: 1px solid rgb(123, 123, 123);
         padding: 8px 18px 12px;
         display: inline-block;
+        vertical-align: top;
     }
     .blog-preview h2 {
         margin: 0 0 8px 0;
@@ -23,6 +24,7 @@ layout: blog_page
   {% for post in site.posts %}
       <a class="blog-preview" href="{{ post.url }}">
           <h2>{{ post.title }}</h2>
-          <p>{{ post.excerpt }}</p>
+          <p>{{ post.excerpt }}</p><br>
+          <p style="">Read More &rarr;</p>
       </a>
   {% endfor %}

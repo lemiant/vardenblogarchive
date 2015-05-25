@@ -2,7 +2,7 @@
 layout: post
 title: Ignition Week
 excerpt: "We just finished Ignition Week. It's been a whirlwind: Great programs, Great people, and 5000 dollars. Now off to Calgary!"
-headerImage: /img/business_cards.jpg
+headerImage: /blog/imgs/business_cards.jpg
 headerColor: "#0A0A0A"
 ---
 
@@ -20,6 +20,6 @@ We just finished Ignition Week, a program for all University of Waterloo student
 
 Now we're leaving Waterloo and heading off to Calgary to start building our self-driving golf cart, it's gonna be amazing!
 
-Bye Everyone!
+Bye Everyone.
 
 ![](/img/off_to_calgary.jpg)
