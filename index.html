@@ -163,43 +163,45 @@
         }
         #sponsor-grid li {
             height: 200px;
+            width: 200px;
             margin: 0 40px;
             display: inline-block;
             position: relative;
-        }
-        #sponsor-grid li img {
-          height: 100%;
+            vertical-align: middle;
+            overflow: hidden;
         }
         #sponsor-grid li a {
+          display: block;
           height: 100%;
+          width: 100%;
+          text-align: center;
+        }
+        #sponsor-grid li img {
+          max-height: 100%;
+          max-width: 100%;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        #sponsor-grid li a::before {
+          content: "";
+          height: 100%;
+          vertical-align: middle;
+          margin-right: -0.3em;
+          display: inline-block;
         }
         #sponsor-grid .partial-overlay {
-          height: 100%;
-          width: 230px;
-          position: absolute;
-          top: 0;
-          display: none;
-        }
-        #sponsor-grid .partial-overlay div.background-color {
-          background-color: rgba(52, 152, 219, 0.9);
+          background-color: rgba(52, 152, 219, 0.85);
           color: white;
-          font-size: 13px;
-          text-align: left;
-          display: inline-block;
-          height: 100%;
-          width: 180px;
-          padding: 12px;
+          font-size: 12px;
+          padding: 11px;
+          width: 100%;
+          position: absolute;
+          bottom: -100%;
+          transition: bottom 0.6s ease-in-out;
         }
-        #sponsor-grid .partial-overlay.left {
-          left: -210px;
-          text-align: left;
-        }
-        #sponsor-grid .partial-overlay.right {
-          right: -210px;
-          text-align: right;
-        }
-        #sponsor-grid  li:hover .partial-overlay, #sponsor-grid .partial-overlay:hover {
-          display: block;
+        #sponsor-grid  li:hover .partial-overlay{
+          bottom: 0;
+          transition: bottom 0.6s ease-in-out;
         }
     </style>
      <section id="page-sponsors" class="grey">
@@ -214,20 +216,26 @@
                     <li>
                       <a href="http://www.novatel.com/">
                         <img src="img/novatel.gif" alt="NovAtel" >
-                        <div class="partial-overlay left">
-                        <div class="background-color">
-                          NovAtel is a world leader in GPS equipment. We are using their ProPak 6 GPS receiver on our vehicle because of its amazing accuracy and rugged reliability. Click here to learn more about NovAtel.
+                        <div class="partial-overlay">
+                          NovAtel is a world leader in GPS equipment. We are using their ProPak 6 GPS receiver on our vehicle because of its amazing accuracy and rugged reliability.
                         </div>
+                      </a>
+                    </li>
+                     <li>
+                      <a href="http://www.terrastar.net/">
+                        <img src="img/terrastar.jpg" alt="TerraStar" >
+                        <div class="partial-overlay">
+                          TerraStar delivers a GPS correction feed to allow precise positioning anywhere in the world. We are using their TerraStar-C service to achieve, astounding, 5cm accuracy on our GPS position.
                         </div>
                       </a>
                     </li>
                     <li>
-                      <img src="img/waterloo.png">
-                        <div class="partial-overlay right">
-                        <div class="background-color">
+                      <a>
+                        <img src="img/waterloo.png">
+                        <div class="partial-overlay">
                           The University of Waterloo is known for being a center of innovation. We would never have been able to embark on this journey without the financial and academic support Waterloo gives its student ventures.
                         </div>
-                        </div>
+                      </a>
                     </li>
                 </ul>
 
