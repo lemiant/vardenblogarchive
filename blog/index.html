@@ -14,9 +14,18 @@ layout: blog_page
         vertical-align: top;
     }
     .blog-preview h2 {
-        margin: 0 0 8px 0;
+        margin: 0;
     }
-    .blog-preview p {
+    .blog-preview .date {
+      margin: 0 0 10px;
+      font-size: 11px;
+    }
+    .blog-preview .excerpt {
+        font-size: 12px;
+        margin: 0;
+        min-height: 3.5em;
+    }
+    .blog-preview .read-more {
         font-size: 12px;
         margin: 0;
     }
@@ -24,7 +33,18 @@ layout: blog_page
   {% for post in site.posts %}
       <a class="blog-preview" href="{{ post.url }}">
           <h2>{{ post.title }}</h2>
-          <p>{{ post.excerpt }}</p><br>
-          <p style="">Read More &rarr;</p>
+          <p class="date">
+            {% assign d = post.date | date: "%-d"  %}
+            {{ post.date | date: "%B" }} 
+            {% case d %}
+              {% when '1' or '21' or '31' %}{{ d }}st
+              {% when '2' or '22' %}{{ d }}nd
+              {% when '3' or '23' %}{{ d }}rd
+              {% else %}{{ d }}th
+              {% endcase %}, 
+            {{ post.date | date: "%Y" }}
+          </p>
+          <p class="excerpt">{{ post.excerpt }}</p><br>
+          <p class="read-more">Read More &rarr;</p>
       </a>
   {% endfor %}
