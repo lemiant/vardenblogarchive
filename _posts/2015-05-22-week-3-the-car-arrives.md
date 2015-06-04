@@ -6,19 +6,19 @@ headerImage: /blog/imgs/golf_car_hill.jpg
 headerColor: "#E2EAE3"
 ---
 
-It's been a very productive first week of build. When we arrived in Calgary we immediately set to work getting our office set up. We have our very own workshop in the garage, complete with drill press, bandsaw, mill and lathe.
+It's been a very productive first week of build. When we arrived in Calgary we immediately set to work getting our office set up. We established a small cove in the basement where we setup out laptops second monitors and our favourite BOSE speaker. Also, we have our very own workshop in the garage complete with drill press, bandsaw, mill and lathe!
 
 ![Photo of the garage workshop](/blog/imgs/workshop.jpg)
 
-The final key tool we needed was, of course, a whiteboard (despite all the fancy productivity tools out there, we still prefer a good whiteboard). For maximum productivity we got the biggest one we could find.
+The final key tool we needed was, of course, a whiteboard (despite all the fancy productivity tools out there, we still prefer a good whiteboard). For maximum productivity we wanted the biggest whiteboard that we could buy.  Unfortunately, large whiteboards are very expensive… To combat this problem, we headed off to Home Depot where we bought a 4’ x 6’ sheet of plywood board which we built a couple legs for and painted with special whiteboard paint leaving us with an awesome back wall to our office. 
 
 ![Photo of the whiteboard](/blog/imgs/whiteboard.jpg)
 
-With that settled we went out to go get ourselves a golf cart. We picked up a used electric Yamaha golf car on the cheap and, after trying it out for a bit, set about taking it apart:
+With that settled we went out to go get ourselves a golf cart. After looking around at a few different options to try and find the best fit for us, we found the perfect fit. We found a nice used electric Yamaha golf car for a pretty good bargain and after trying it out for a bit, set about taking it apart to learn about how everything works:
 
 ![Photo of the golf cart in pieces](/blog/imgs/dissassembled_golf_cart.jpg)
 
-The next few days were a blur of CADing, sourcing and machining. We've even got our first parts, straight from the CNCs:
+The next few days were a blur of CADing, sourcing parts and machining. We've even got our first parts, straight from the CNCs:
 
 ![Photo of the pivots](/blog/imgs/pivots.jpg)
 
