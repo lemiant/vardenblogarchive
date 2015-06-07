@@ -16,7 +16,7 @@ This week has also been very productive on the sensor tray front, we CNC-ed all 
 
 ![Sensor tray plates](/blog/imgs/st_plates.jpg)
 
-And then a little bit of forearm-melting rivetting later we have the finished sensor tray attached to the cart, ready to start scanning for obstacles:
+A little bit of forearm-melting rivetting later and we have the finished sensor tray attached to the cart, ready to start scanning for obstacles:
 
 ![Sensor tray mounted to the cart](/blog/imgs/sensor_tray_done.jpg)
 
