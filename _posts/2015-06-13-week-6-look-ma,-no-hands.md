@@ -19,7 +19,7 @@ Being an autonomously driving vehicle, for the most part, the computer, the micr
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cH59rFDirSA" frameborder="0" allowfullscreen></iframe>
 
-in addition to this inductive switch, Mike mounted an e-stop to the roof of the golf cart.  This switch is electronically coupled to the inductive switch so that if either of the two are activated, the computer looses control of the golf cart.
+In addition to this inductive switch, Mike mounted an e-stop to the roof of the golf cart.  This switch is electronically coupled to the inductive switch so that if either of the two are activated, the computer looses control of the golf cart.
 
 ![Picture of the e-stop](/blog/imgs/e-stop.jpg)
 
@@ -49,11 +49,11 @@ For the rest of the week, Mike was away as he flew back to Ontario to meet with 
 
 ![IMU](/blog/imgs/IMU.jpg)
 
-The last thing to add to the list of things done this week, is the design and some of the manufacturing of the brake mechanism.  Pictured below, the brake is essentially just a motor and gearbox with a winch spool on the output shaft.  The idea is that by changing the voltage allied to the motor VIA a motor controller, we can change the linear force being applied to the rope which attaches to the existing brake system.  The main advantage to this design is that we are not influencing the safety and reliability of the existing mechanical brake at all so that if anything fails, the manual brake does not.
+The last thing to add to the list of things done this week, is the design and some of the manufacturing of the brake mechanism.  Pictured below, the brake is essentially just a motor and gearbox with a winch spool on the output shaft.  The idea is that by changing the voltage aplied to the motor via a motor controller, we can change the linear force being applied to the rope which attaches to the existing brake system.  The main advantage to this design is that we are not influencing the safety and reliability of the existing mechanical brake at all so that if anything fails, the manual brake does not.
 
 ![brake_design](/blog/imgs/brake_design.JPG)
 
-Hopefully by next week, we have enough ready to attempt to drive our route while monitoring our surroundings and stop if a basic object just as a human is in the way!  Yet again, everyday at Varden Labs is even more exciting than the last
+Hopefully by next week, we have enough ready to attempt to drive our route while monitoring our surroundings and stop if a basic object like a human is in the way!  Yet again, everyday at Varden Labs is even more exciting than the last
 
 Until next week,
 
