@@ -51,7 +51,7 @@ For the rest of the week, Mike was away as he flew back to Ontario to meet with 
 
 The last thing to add to the list of things done this week, is the design and some of the manufacturing of the brake mechanism.  Pictured below, the brake is essentially just a motor and gearbox with a winch spool on the output shaft.  The idea is that by changing the voltage allied to the motor VIA a motor controller, we can change the linear force being applied to the rope which attaches to the existing brake system.  The main advantage to this design is that we are not influencing the safety and reliability of the existing mechanical brake at all so that if anything fails, the manual brake does not.
 
-![brake_design](/blog/imgs/brake_design.jpg)
+![brake_design](/blog/imgs/brake_design.JPG)
 
 Hopefully by next week, we have enough ready to attempt to drive our route while monitoring our surroundings and stop if a basic object just as a human is in the way!  Yet again, everyday at Varden Labs is even more exciting than the last
 
