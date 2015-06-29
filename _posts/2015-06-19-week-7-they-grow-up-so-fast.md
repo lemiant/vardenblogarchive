@@ -13,7 +13,7 @@ Next was our first strategy to avoid running into stuff, ground segmentation. Th
 
 ![screenshot of ground segmentation](/blog/imgs/ground_segmentation.jpg)
 
-By being able to detect where obstacles are, all that is left to do is check that our route doesn't hit any obstacles. This is done by projecting a line of gris squares forward along our route and checking all of the grid squares around the line up to a specific radius to make sure that there are no objects both on our route and around it.  When an obstacle appears inside this projected route, the computer tells golf cart to stop.
+By being able to detect where obstacles are, all that is left to do is check that our route doesn't hit any obstacles. This is done by projecting a line of grid squares forward along our route and checking all of the grid squares around the line up to a specific radius to make sure that there are no objects both on our route and around it.  When an obstacle appears inside this projected route, the computer tells golf cart to stop.
 
 As soon as Mike got back from Ontario, he got straight to work finishing machining assembling and mounting the brake.  Some of the parts had already been CNCed before Mike left, so it was only a matter of 24 hours before everything was assembled and the mounting process started.  What a process that was!
 
