@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cleaning Things Up
-excerpt: We are extremely excited to have achieved our minimum viable product in such a short period of time.
+excerpt: This week, Mike started by finishing up the laptop tray.  There were a few parts still to make, a couple things left to pickup, but it wasn’t long
 headerImage: /blog/imgs/cleaned_up_large.jpg
 headerColor: white
 headerHeight: auto
@@ -9,20 +9,26 @@ headerHeight: auto
 
 This week, Mike started by finishing up the laptop tray.  There were a few parts still to make, a couple things left to pickup, but it wasn’t long before everything was mounted and working as expected.
 
-![finished laptop tray](/blog/imgs/finished_golf_cart.jpg)
+![finished laptop tray](/blog/imgs/finished_laptop_tray.jpg)
 
-The next thing on the list of things to do requires a little bit of backstory. While testing and running on the various fields, we have experienced many LiDAR related random points and anomalies which pop up in the middle of no where. One specific anomaly which we call lasers we will talk about in another blog post specifically about it. The rest of them seem to be randomly distributed pointe that only appear for one frame and then disappear. Our best theory is that dust and bugs in the air are intersecting the lasers paths and cause them to appear as objects. This became a problem when the golf cart reports these as objects in its way and brakes momentarily before continuing as if nothing had happened. To solve this issue, we have talked about a few different algorithms which we are going to try in order to filter theses points.  One of these algorithms is shown in the photo below where red represents real points, and the white represents points that have been filtered.
+The next thing on the list of things to do requires a little bit of backstory. While testing and running on the various fields, we have experienced many LiDAR related random points and anomalies which pop up in the middle of no where. There is one specific anomaly which we nicknamed lasers that creates large disturbances, but otherwise they are small (we'll talk about lasers in another blog). The rest of them seem to be randomly distributed pointe that only appear for one frame and then disappear. Our best theory is that dust and bugs in the air are intersecting the lasers paths and cause them to appear as objects. This became a problem when the golf cart reports these as objects in its way and brakes momentarily before continuing as if nothing had happened. To solve this issue, we have talked about a few different algorithms which we are going to try in order to filter theses points.  One of these algorithms is shown in the photo below where red represents real points, and the white represents points that have been filtered.
 
-![dust filter snapshot]()
+![dust filter snapshot](/blog/imgs/dust_filter.jpg)
 
 One of the drawbacks of this specific algorithm is that points that live on their own but are actually objects such as leaves etc are filtered out too.  lucky, this does not cause any issues with object detection as we still have enough points to work with, but we do have plans to experiment with some other filtering techniques that are hopefully more reliable and filter out less real points.
 
-While Alex was working on the filtering code, Mike spend some time tidying up the golf cart a bit.  All exposed wires were surrounded in wire wrap for looks and protection, the original plastic body of the golf cart was re-attached with minor modifications to accommodate all of our added frame, and a few components we rearranged to make the wiring cleaner and more contained.
+While Alex was working on the filtering code, Mike spend some time tidying up the golf cart a bit.  All exposed wires were surrounded in wire wrap for looks and protection, the original plastic body of the golf cart was re-attached with minor modifications to accommodate all of our added frame, and a few components were rearranged to make the wiring cleaner and more contained.
 
-![cleaned up golf cart]
+![cleaned up golf cart](/blog/imgs/cleaned_up.jpg)
 
-The next item on the list was a tricky one.  Our LiDAR only gives us the coordinates of our surroundings relative to the sensor itself.  Unfortunately, as the sensor moves, we need to correct for this movement so that our map remains in an absolute frame relative to the earth.
-// NovAtel to Velodyne
+The next item on the list was a tricky one.  Our LiDAR only gives us the coordinates of our surroundings relative to the sensor itself.  Unfortunately, as the sensor moves, we need to correct for this movement so that our map remains in an absolute frame relative to the earth.  This is done by using our GPS location data along with our IMU data (which gives us the roll pitch and yaw of the golf cart).  One important thing to keep in mind is that as our LiDAR spins and gives us data, the golf cart is moving.  This means that as the data is given to us, we have to use the GPS and IMU data from the same time period that the LiDAR data is collected to ensure that everything lines up. 
 
+One key part to how a GPS works involves having an extremely accurate clock to be able to synchronize itself with the satellites in orbit.  What we were able to do is feed that same clock signal into the LiDAR to keep the two sensors synchronized.  This was a very nerve racking process as any mistake could mean braking either our very expensive GPS or very expensive LiDAR.  Needless to say, we were very slow and careful, but by the end of it, we successfully got the two synced!  Here is a photo midway through the process, you can see all of the exposed wire, along with a logic analyzer and a whole bunch of tools.
 
-// Rebuild golf cart
+![lidar gps interface](/blog/imgs/lidar_gps_jst.jpg)
+
+We will likely spend the next week finishing up a bunch of other smaller items (wheel encoders, some electrical changes, filtering etc) but are excited to soon start working on the next step of major items.  A wireless e-stop switch so that we can confidently drive without anyone onboard and the start to our 3D cube world code where we make predictions based of moving objects and where they are going!
+
+By next week we will have more info on our next steps, we hope to see you back again.
+
+Mike and Alex

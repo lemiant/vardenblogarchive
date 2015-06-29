@@ -4,7 +4,7 @@ layout: blog_page
 <style>
     .blog-preview {
         text-decoration: none;
-        color: black;
+        color: white;
         width: 340px;
         margin-top: 22px;
         margin-right: 7px;
@@ -12,13 +12,19 @@ layout: blog_page
         padding: 8px 18px 12px;
         display: inline-block;
         vertical-align: top;
+        position: relative;
+        height: 196px;
     }
     .blog-preview h2 {
         margin: 0;
     }
     .blog-preview .date {
-      margin: 0 0 10px;
+      margin: 3px 0 10px;
       font-size: 11px;
+      display: none;
+    }
+    .blog-preview:hover .date {
+      display: block;
     }
     .blog-preview .excerpt {
         font-size: 12px;
@@ -29,9 +35,52 @@ layout: blog_page
         font-size: 12px;
         margin: 0;
     }
+    .blog-preview .bottom {
+      position: absolute;
+      bottom: 15px;
+    }
+
+    .blog-post-bg {
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0px;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .blog-post-bg::before {
+      content: "";
+      height: 100%;
+      display: inline-block;
+      margin-right: -5px;
+      vertical-align: middle;
+    }
+    .blog-post-bg img {
+      max-width: 102%;
+      max-height: 102%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .bg-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    }
 </style>
   {% for post in site.posts %}
       <a class="blog-preview" href="{{ post.url }}">
+        <div class="blog-post-bg" style="background-color: {{post.headerColor }}">
+          <div class="bg-overlay"></div>
+          <img src="{{ post.headerImage }}" />
+        </div>
           <h2>{{ post.title }}</h2>
           <p class="date">
             {% assign d = post.date | date: "%-d"  %}
@@ -44,7 +93,9 @@ layout: blog_page
               {% endcase %}, 
             {{ post.date | date: "%Y" }}
           </p>
-          <p class="excerpt">{{ post.excerpt }}</p><br>
-          <p class="read-more">Read More &rarr;</p>
+          <div class="bottom">
+            <p class="excerpt">{{ post.excerpt }}</p><br>
+            <p class="read-more">Read More &rarr;</p>
+          </div>
       </a>
   {% endfor %}
