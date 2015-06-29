@@ -237,7 +237,7 @@ section:nth-of-type(even) {
   font-size: 100px;
   color: white;
   font-family: FontAwesome;
-  
+
   display: inline-block;
   line-height: 100px;
   height: 100px;
@@ -265,6 +265,9 @@ section:nth-of-type(even) {
   font-size: 16px;
 }
 
+#grid .mix.big-demo {
+  width: 400px;
+}
  
  
 .isotope-item {
@@ -600,6 +603,10 @@ label.valid{
         width: 250px;
     }
     
+    #grid .mix.big-demo {
+      width: auto;
+    }
+
     #page-welcome header h3 {
         font-size: 1em;
        line-height: 3em;
@@ -632,5 +639,4 @@ label.valid{
     src: url(/fonts/Muli-Light.ttf);
 }
 
-
-
+.main

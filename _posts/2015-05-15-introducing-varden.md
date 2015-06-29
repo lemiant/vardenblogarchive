@@ -2,6 +2,9 @@
 layout: post
 title: Introducing Varden Labs
 excerpt: Hi there, we are two kids from the University of Waterloo. We love autonomous technology and we think it is going to be revolutionary.
+headerImage: /blog/imgs/the_team.jpg
+headerColor: white
+headerHeight: auto
 ---
 
 Hi there,
