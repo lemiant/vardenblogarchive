@@ -129,7 +129,7 @@ background-color: transparent;
 
 .profile{
     border: 5px solid #333;
-    margin: 0 20px 20px 0;
+    margin: 0 35px 20px 8px;
    
 }
 
@@ -605,6 +605,10 @@ label.valid{
     
     #grid .mix.big-demo {
       width: auto;
+    }
+
+    #grid .mix.old-demo {
+      display: none;
     }
 
     #page-welcome header h3 {
