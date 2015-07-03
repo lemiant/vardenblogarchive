@@ -27,7 +27,7 @@ One key part to how a GPS works involves having an extremely accurate clock to b
 
 ![lidar gps interface](/blog/imgs/lidar_gps_jst.jpg)
 
-We will likely spend the next week finishing up a bunch of other smaller items (wheel encoders, some electrical changes, filtering etc) but are excited to soon start working on the next step of major items.  A wireless e-stop switch so that we can confidently drive without anyone onboard and the start to our 3D cube world code where we make predictions based of moving objects and where they are going!
+We will likely spend the next week finishing up a bunch of other smaller items (wheel encoders, some electrical changes, filtering etc). However we are also excited to soon start working on the next step of major items including a wireless e-stop switch so that we can confidently drive without anyone onboard!
 
 By next week we will have more info on our next steps, we hope to see you back again.
 
