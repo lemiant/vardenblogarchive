@@ -49,7 +49,7 @@ With the completion of all of these additions and features, we thought it would 
 
 ![track_roadtrip](/blog/imgs/track_roadtrip.jpg)
 
-We ran our golf cart for a couple hours, made a bunch of routes around the track and tested all of our features.  They all worked great!  In addition to running on the track, we set up a time next week where we could come back during the day and run for a few hours.  Once we had this date set up, we called CTV and they agreed to have a crew come out and record what we are doing!  In addition to CTV, we managed to convince Darren Harmon to come out and bring his quad-copter with an attached go-pro. By next week, we should get some awesome shots of our golf cart in action! Make sure to check that out!
+We ran our golf cart for a couple hours, made a bunch of routes around the track and tested all of our features.  They all worked great!  In addition to running on the track, we set up a time next week where we could come back during the day and run for a few hours.  Once we had this date set up, we called CTV and they agreed to have a crew come out and record what we are doing!  In addition to CTV, we managed to convince Darren Harmon from Forefront Video Tours (http://www.forefrontvideotours.com/#home) to come out and bring his quad-copter with an attached go-pro. By next week, we should get some awesome shots of our golf cart in action! Make sure to check that out!
 
 We have a bunch of demos lined up for next week and we look forward to telling you guys all about them.
 
