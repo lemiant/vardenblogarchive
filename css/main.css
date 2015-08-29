@@ -657,19 +657,19 @@ video#bgvid {
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(/img/vardencut.png) no-repeat #fff;
+    background: url(../img/vardencut.png) no-repeat #fff;
     background-size: cover; 
 }
 
-/*@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 800px) {
     html {
-         background: url(/img/vardencut.png) #fff no-repeat center center fixed;
+         background: url(../img/vardencut.png) #fff no-repeat center center fixed;
     }
     #bgvid {
         display: none;
     }
 }
-/*
+
 
 <!--[if lt IE 9]>
 <script>
