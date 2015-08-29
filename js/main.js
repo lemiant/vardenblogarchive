@@ -44,7 +44,7 @@ $(".navbar").sticky({topSpacing: 0});
      });
 
 
-/* VEGAS Home Slider */
+/* VEGAS Home Slider 
 	
 		$.vegas({
             src:'/img/slider/01.jpg',
@@ -54,7 +54,7 @@ $(".navbar").sticky({topSpacing: 0});
               src:'/img/overlays/dark_7.png'
         });
         
-
+*/
 
 /*Contact form */
       $('#contact-form').validate({
