@@ -661,7 +661,7 @@ video#bgvid {
     background-size: cover; 
 }
 
-@media screen and (max-device-width: 800px) {
+/*@media screen and (max-device-width: 800px) {
     html {
          background: url(/img/vardencut.png) #fff no-repeat center center fixed;
     }
@@ -669,6 +669,7 @@ video#bgvid {
         display: none;
     }
 }
+/*
 
 <!--[if lt IE 9]>
 <script>
