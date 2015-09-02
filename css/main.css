@@ -12,6 +12,7 @@ html, body {
     width: 100%;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     color:#757575;
+    background: url(../img/vardencut.png) #fff no-repeat center center fixed;
 }
 
 p {
@@ -663,11 +664,10 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
     html {
-         
+         background: url(../img/vardencut.png) #fff no-repeat center center fixed;
     }
     #bgvid {
         display: none;
-        background: url(../img/vardencut.png) #fff no-repeat center center fixed;
     }
 }
 
