@@ -14,15 +14,6 @@ html, body {
     color:#757575;
 }
 
-@media screen and (max-device-width: 800px) {
-    html {
-         background: url(../img/vardencut.png) #fff no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
-    }
-}
-
 p {
   font-size: 16px;
 }
@@ -670,7 +661,15 @@ video#bgvid {
     background-size: cover; 
 }
 
-
+@media screen and (max-device-width: 800px) {
+    html {
+         
+    }
+    #bgvid {
+        display: none;
+        background: url(../img/vardencut.png) #fff no-repeat center center fixed;
+    }
+}
 
 
 <!--[if lt IE 9]>
