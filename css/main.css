@@ -582,10 +582,6 @@ label.valid{
         width: 400px;
     }
     
-    #page-welcome{
-        background: url(../img/vardencut.png) #fff no-repeat center center fixed;
-    }
-    
     #page-welcome header h3 {
         font-size: 1.6em;
     }
