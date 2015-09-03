@@ -584,7 +584,17 @@ label.valid{
     #page-welcome header h3 {
         font-size: 1.6em;
     }
+    
+    video#bgvid {
+        display: none;
+        
+    }
+    
+    section#page-welcome {
+    background: url(../img/vardencut.png) #fff no-repeat center center fixed;
 }
+}
+
 
 @media  (max-width: 479px) {
 
