@@ -591,16 +591,24 @@ label.valid{
     }
     
     section#page-welcome {
-    background: url(../img/vardencut.png) #fff no-repeat center center fixed;
+    background: url(../img/vardencut.png) #fff no-repeat fixed;
+    max-height: 429px;
 }
+        .arrow{
+    display: none;
+
+    }
 }
 
 
 @media  (max-width: 479px) {
-
+    
+    
+    
     .white, .grey {
       padding: 50px 0 70px;
     }
+
 
     #page-welcome .centered {
         margin-top: 7%;
@@ -646,6 +654,7 @@ label.valid{
           #page-profile .profile{
     margin:0 auto 20px auto;
   }
+ 
 }
 
 
@@ -717,7 +726,7 @@ body {
   position: relative;
   bottom: 0;
   left: 50%;
-  margin-top: -100px;
+    margin-top: -6%;
   margin-left:-20px;
   width: 40px;
   height: 40px;
