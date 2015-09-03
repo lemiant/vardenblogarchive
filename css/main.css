@@ -654,6 +654,10 @@ label.valid{
           #page-profile .profile{
     margin:0 auto 20px auto;
   }
+    
+    section#page-profile{
+        margin-top: -110px;
+    }
  
 }
 
