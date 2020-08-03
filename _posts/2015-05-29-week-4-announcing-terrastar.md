@@ -2,7 +2,7 @@
 layout: post
 title: Announcing TerraStar
 excerpt: Another big week, finished the sensor tray and brought on a new sponsor
-headerImage: /blog/imgs/terrastar.png
+headerImage: imgs/terrastar.png
 headerColor: rgb(226, 240, 222)
 ---
 
@@ -14,21 +14,21 @@ For those of you who are interested in learning more about our GPS rig we'll be 
 
 This week has also been very productive on the sensor tray front, we CNC-ed all the plates for the sensor tray:
 
-![Sensor tray plates](/blog/imgs/st_plates.jpg)
+![Sensor tray plates](imgs/st_plates.jpg)
 
 A little bit of forearm-melting rivetting later and we have the finished sensor tray attached to the cart, ready to start scanning for obstacles:
 
-![Sensor tray mounted to the cart](/blog/imgs/sensor_tray_done.jpg)
+![Sensor tray mounted to the cart](imgs/sensor_tray_done.jpg)
 
 We met with a couple of application engineers from NovAtel (the sponsor giving us our GPS receiver) on Monday, they were really friendly and excited about the project. One thing they suggested to us was that we would be best off if our receivers had a clear view of the sky, so in all likelyhood the receiver wont be mounted on the sensor tray - unlike the photo. Instead we are in the process of designing a custom roof to mount the receivers to.
 
 Mike has also started working on the design for our steering retrofit. We wanted to make sure the steering wheel still works when self-driving is off, so we made sure to tap into the existing steering system, without altering the existing design. Here's a sneak peak of the new design:
 
-![Steering mechanism](/blog/imgs/steering_cad.jpg)
+![Steering mechanism](imgs/steering_cad.jpg)
 
 We even have the first part made for steering, it's the only CNCed part on steering (mike's going to be making the rest on the manual mill). Consider this another challenge to find it in the photo above:
 
-![Sprocket mount](/blog/imgs/sprocket_mount.jpg)
+![Sprocket mount](imgs/sprocket_mount.jpg)
 
 Now that the sensors are mounted we plugged them all into a network switch and now have them all streaming to the computer at once. With everything running, Alex got a chance to take advantage of his first cool feature in Robot Operating System. Using a tool called ROSbag we can record and playback the output of our GPS and LiDAR so that we can test algorithms against the data from previous runs all while sitting on the couch, pretty cool, huh?
 

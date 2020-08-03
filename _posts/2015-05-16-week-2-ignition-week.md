@@ -2,7 +2,7 @@
 layout: post
 title: Ignition Week
 excerpt: "We just finished Ignition Week. It's been a whirlwind: Great programs, Great people, and 5000 dollars. Now off to Calgary!"
-headerImage: /blog/imgs/business_cards.jpg
+headerImage: imgs/business_cards.jpg
 headerColor: "#0A0A0A"
 ---
 
@@ -22,4 +22,4 @@ Now we're leaving Waterloo and heading off to Calgary to start building our self
 
 Bye Everyone.
 
-![](/img/off_to_calgary.jpg)
+![](img/off_to_calgary.jpg)

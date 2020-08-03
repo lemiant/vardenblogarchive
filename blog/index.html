@@ -76,10 +76,10 @@ layout: blog_page
     }
 </style>
   {% for post in site.posts %}
-      <a class="blog-preview" href="{{ post.url }}">
+      <a class="blog-preview" href="..{{ post.url }}">
         <div class="blog-post-bg" style="background-color: {{post.headerColor }}">
           <div class="bg-overlay"></div>
-          <img src="{{ post.headerImage }}" />
+          <img src="./{{ post.headerImage }}" />
         </div>
           <h2>{{ post.title }}</h2>
           <p class="date">
