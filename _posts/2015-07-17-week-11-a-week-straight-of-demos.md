@@ -2,7 +2,7 @@
 title: A Week Straight of Demos
 layout: post
 excerpt: What. a. week...  Last week we mentioned that we were going to be going to a go cart track and talking to the local CTV news. After an eventful morning of looking for our lost truck key, we finally got to the track a few minutes late.
-headerImage: /blog/imgs/aerial.png
+headerImage: blog/imgs/aerial.png
 headerColor: white
 headerHeight: auto
 ---
