@@ -1,8 +1,8 @@
 ---
 title: A Week Straight of Demos
 layout: post
-excerpt: 
-headerImage: /blog/imgs/Aerial_cover.jpg
+excerpt: What. a. week...  Last week we mentioned that we were going to be going to a go cart track and talking to the local CTV news. After an eventful morning of looking for our lost truck key, we finally got to the track a few minutes late.
+headerImage: /blog/imgs/aerial.png
 headerColor: white
 headerHeight: auto
 ---
@@ -24,20 +24,3 @@ The National piece will not be released until later, but that same day, the loca
 NovAtel:
 
 After our day at the track, the next day, we had a couple representatives from NovAtel stop by and see how we had been doing. NovAtel is a Calgary based GPS company who were nice enough to donate our entire GPS rig to us for the summer.  This has been vital for the prototype and we gratefull to call them a sponsor of the prototype.  We had the golf cart running loops around a local field and its pretty cool to just watch the vehicle drive around without anyone inside.
-
-Glenifer Lake Resort:
-
-
-
-
-- speed bumps
-- gps standard deviation lockout
-
-CAVCOE (Canadian Autonomous Vehicle Center of Excelence):
-
-
-
-
-
-
-
